@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+.navbar{
+    background-color: rgba(184, 135, 11, 0.527);
+}
+.navbar .navbar-nav .nav-item .nav-link{
+    font-size: 20px;
+    margin-left: 15px;
+    color: #fff;
+}
+.testimonial-section{
+    padding: 80px 0px;
+}
+.testimonial-section .testimoni{
+    padding: 15px 0px;
+}
+.testimonial-section .testimoni i{
+    font-size: 40px;
+
+}
+.testimonial-section .testimoni:hover h3{
+    color: rgba(148, 226, 212, 0.596);
+}
+.testimonial-section .testimoni:hover i{
+    color: rgba(148, 226, 212, 0.596);
+}
+.testimonial-section .testimoni p{
+    position: relative;
+}
+.testimonial-section .testimoni:hover p{
+    color: rgba(148, 226, 212, 0.596);
+}
+.testimonial-section .testimoni p::before{
+    position: absolute;
+    content: "";
+    width: 150px;
+    height: 2px;
+    top: 89px;
+    left: 59px;
+    background-color: #000;
+
+}
+.testimonial-section .testimoni:hover p::before{
+    background-color:rgba(148, 226, 212, 0.596);;
+}
+
+
+
+/* class code start */
+.class-code-stat{
+    padding: 80px 0px;
+    background-color: rgba(232, 241, 245, 0.815);
+}
+/* class code end */
+.aleart-section{
+    padding: 40px 0px;
+    background-color: azure;
+}
